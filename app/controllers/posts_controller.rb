@@ -17,7 +17,7 @@ class PostsController < ApplicationController
     redirect_to author_path(@post)
     
     else
-      render :new 
+      render :update 
     end
   end
 
